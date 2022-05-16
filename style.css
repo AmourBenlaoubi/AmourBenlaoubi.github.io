@@ -409,9 +409,20 @@ footer p {
     h2 {
         font-size: 2em;
     }
-
+    #langages {
+        max-width: 350px;
+    }
+    #formation {
+        max-width: 350px;
+    }
+    #diplomes {
+        max-width: 350px;
+    }
+    #parcours {
+        max-width: 350px;
+    }
     img {
-        max-width: 300px;
+        max-width: 350px;
     }
 
     .counter-value {
@@ -456,16 +467,6 @@ footer p {
         max-width: 150px;
     }
 
-    .projet:nth-child(2),
-    .projet:nth-child(3) {
-        margin-left: 0;
-    }
-    .legende {
-        opacity: 1;
-    }
-    #other-skills {
-        display: none;
-    }
     #hobbies {
         margin-top: -30px;
     }
