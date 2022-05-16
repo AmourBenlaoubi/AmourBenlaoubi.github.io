@@ -380,18 +380,24 @@ footer p {
         font-size: 0.9em;
     }
     #langages {
-        margin-left: 1%;
+        max-width: 400px;
     }
     #formation {
-        margin-right: 1%;
+        max-width: 400px;
     }
     #diplomes {
-        margin-right: 1%;
+        max-width: 400px;
+    }
+    #parcours {
+        max-width: 400px;
     }
 
     .network {
         font-size: 2em;
         padding: 10x 20px;
+    }
+    img {
+        max-width: 400px;
     }
 }
 @media screen and (max-width: 770px) {
@@ -405,17 +411,9 @@ footer p {
     h2 {
         font-size: 2em;
     }
-    #langages {
-        width: 80%;
-        margin-left: 10%;
-    }
-    #formation {
-        margin: 25px 0 0 10%;
-        width: 80%;
-    }
-    #diplomes {
-        width: 80%;
-        margin: 25px 0 0 10%;
+
+    img {
+        max-width: 300px;
     }
 
     .counter-value {
@@ -457,20 +455,11 @@ footer p {
     h3 {
         font-size: 1em !important;
     }
-    #bootcamp,
-    #codecademy,
-    #autodidacte {
-        padding: 25px 0 0 0;
-    }
-    #parcours {
-        padding: 30px 30px 0 50px;
-        margin: 30px 10px 0 10px;
+
+    img {
+        max-width: 150px;
     }
 
-    #rncp,
-    #bts {
-        padding: 50px 0 0 0;
-    }
     .projet:nth-child(2),
     .projet:nth-child(3) {
         margin-left: 0;
