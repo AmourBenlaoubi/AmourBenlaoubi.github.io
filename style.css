@@ -313,8 +313,6 @@ header .button:hover a {
 }
 /* ******************* FOOTER ***************** */
 footer {
-    background: url(./media/code-présentation4.jpg) 50% 0% no-repeat fixed;
-    background-size: cover;
     text-align: center;
     padding: 160px 50px 5 50px;
 }
@@ -422,9 +420,7 @@ footer p {
     .data-span {
         font-size: 0.8em;
     }
-    #parcours {
-        margin-top: 50px;
-    }
+
     .legende p {
         display: none;
     }
