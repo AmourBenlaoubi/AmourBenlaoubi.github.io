@@ -115,7 +115,6 @@ header .button:hover a {
 #diplomes .data {
     padding: 25px 15px 10px 15px;
     text-align: center;
-    color: #000000;
 }
 #rncp {
     padding: 50px 0 0 5%;
@@ -417,26 +416,35 @@ footer p {
         font-size: 2em;
     }
 
+    .infos h5,
+    .typed {
+        font-size: 0.9em;
+    }
     #langages {
-        max-width: 350px;
+        max-width: 300px;
         background: url(media/lang.jpg) none;
         background-size: cover;
     }
     #formation {
-        max-width: 350px;
+        max-width: 300px;
         background: url(media/ecole.jpg) none;
         background-size: cover;
     }
     #diplomes {
-        max-width: 350px;
+        max-width: 300px;
         background: url(media/tab2.jpg) none;
         background-size: cover;
     }
     #parcours {
-        max-width: 350px;
+        max-width: 300px;
+    }
+
+    .network {
+        font-size: 2em;
+        padding: 10x 20px;
     }
     img {
-        max-width: 350px;
+        max-width: 300px;
     }
 
     .counter-value {
@@ -477,19 +485,16 @@ footer p {
         font-size: 1em !important;
     }
 
-    img {
-        max-width: 150px;
-    }
     #diplomes {
-        background: url(media/tab2.jpg) none;
+        background: url(media/tab2.jpg) no-repeat fixed 50% 50%;
         background-size: cover;
     }
     #langages {
-        background: url(media/lang.jpg) none;
+        background: url(media/lang.jpg) no-repeat fixed 50% 50%;
         background-size: cover;
     }
     #formation {
-        background: url(media/ecole.jpg) none;
+        background: url(media/ecole.jpg) no-repeat fixed 50% 50%;
         background-size: cover;
     }
 
