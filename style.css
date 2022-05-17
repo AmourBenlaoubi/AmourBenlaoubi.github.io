@@ -148,7 +148,7 @@ header .button:hover a {
     letter-spacing: 0.1em;
     padding-top: 0.5em;
     padding: 15px 15px;
-    color: rgb(248, 3, 3);
+    color: rgb(255, 0, 0);
 }
 
 /* ******************** FORMATION ****************** */
@@ -379,12 +379,15 @@ footer p {
     }
     #langages {
         max-width: 400px;
+        background: url(media/lang.jpg) none;
     }
     #formation {
         max-width: 400px;
+        background: url(media/ecole.jpg) none;
     }
     #diplomes {
         max-width: 400px;
+        background: url(media/tab2.jpg) none;
     }
     #parcours {
         max-width: 400px;
@@ -409,14 +412,18 @@ footer p {
     h2 {
         font-size: 2em;
     }
+
     #langages {
         max-width: 350px;
+        background: url(media/lang.jpg) none;
     }
     #formation {
         max-width: 350px;
+        background: url(media/ecole.jpg) none;
     }
     #diplomes {
         max-width: 350px;
+        background: url(media/tab2.jpg) none;
     }
     #parcours {
         max-width: 350px;
@@ -465,6 +472,15 @@ footer p {
 
     img {
         max-width: 150px;
+    }
+    #diplomes {
+        background: url(media/tab2.jpg) none;
+    }
+    #langages {
+        background: url(media/lang.jpg) none;
+    }
+    #formation {
+        background: url(media/ecole.jpg) none;
     }
 
     #hobbies {
