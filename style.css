@@ -115,6 +115,7 @@ header .button:hover a {
 #diplomes .data {
     padding: 25px 15px 10px 15px;
     text-align: center;
+    color: #000000;
 }
 #rncp {
     padding: 50px 0 0 5%;
@@ -380,14 +381,17 @@ footer p {
     #langages {
         max-width: 400px;
         background: url(media/lang.jpg) none;
+        background-size: cover;
     }
     #formation {
         max-width: 400px;
         background: url(media/ecole.jpg) none;
+        background-size: cover;
     }
     #diplomes {
         max-width: 400px;
         background: url(media/tab2.jpg) none;
+        background-size: cover;
     }
     #parcours {
         max-width: 400px;
@@ -416,14 +420,17 @@ footer p {
     #langages {
         max-width: 350px;
         background: url(media/lang.jpg) none;
+        background-size: cover;
     }
     #formation {
         max-width: 350px;
         background: url(media/ecole.jpg) none;
+        background-size: cover;
     }
     #diplomes {
         max-width: 350px;
         background: url(media/tab2.jpg) none;
+        background-size: cover;
     }
     #parcours {
         max-width: 350px;
@@ -475,12 +482,15 @@ footer p {
     }
     #diplomes {
         background: url(media/tab2.jpg) none;
+        background-size: cover;
     }
     #langages {
         background: url(media/lang.jpg) none;
+        background-size: cover;
     }
     #formation {
         background: url(media/ecole.jpg) none;
+        background-size: cover;
     }
 
     #hobbies {
