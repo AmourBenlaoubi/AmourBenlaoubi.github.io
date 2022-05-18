@@ -422,20 +422,20 @@ footer p {
     #diplomes {
         background: url(media/tab2.jpg);
         background-size: 100% 100%;
-        max-width: 300px;
+        max-width: 400px;
     }
     #langages {
         background: url(media/lang.jpg);
         background-size: 100% 100%;
-        max-width: 300px;
+        max-width: 400px;
     }
     #formation {
         background: url(media/ecole.jpg);
         background-size: 100% 100%;
-        max-width: 300px;
+        max-width: 400px;
     }
     #parcours {
-        max-width: 300px;
+        max-width: 400px;
     }
 
     .network {
