@@ -377,20 +377,20 @@ footer p {
     .typed {
         font-size: 0.9em;
     }
-    #langages {
+    #diplomes {
+        background: url(media/tab2.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
-        background: url(media/lang.jpg) none;
-        background-size: cover;
+    }
+    #langages {
+        background: url(media/lang.jpg);
+        background-size: 100% 100%;
+        max-width: 400px;
     }
     #formation {
+        background: url(media/ecole.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
-        background: url(media/ecole.jpg) none;
-        background-size: cover;
-    }
-    #diplomes {
-        max-width: 400px;
-        background: url(media/tab2.jpg) none;
-        background-size: cover;
     }
     #parcours {
         max-width: 400px;
@@ -399,9 +399,6 @@ footer p {
     .network {
         font-size: 2em;
         padding: 10x 20px;
-    }
-    img {
-        max-width: 400px;
     }
 }
 @media screen and (max-width: 770px) {
@@ -420,20 +417,20 @@ footer p {
     .typed {
         font-size: 0.9em;
     }
-    #langages {
+    #diplomes {
+        background: url(media/tab2.jpg);
+        background-size: 100% 100%;
         max-width: 300px;
-        background: url(media/lang.jpg) none;
-        background-size: cover;
+    }
+    #langages {
+        background: url(media/lang.jpg);
+        background-size: 100% 100%;
+        max-width: 300px;
     }
     #formation {
+        background: url(media/ecole.jpg);
+        background-size: 100% 100%;
         max-width: 300px;
-        background: url(media/ecole.jpg) none;
-        background-size: cover;
-    }
-    #diplomes {
-        max-width: 300px;
-        background: url(media/tab2.jpg) none;
-        background-size: cover;
     }
     #parcours {
         max-width: 300px;
@@ -442,9 +439,6 @@ footer p {
     .network {
         font-size: 2em;
         padding: 10x 20px;
-    }
-    img {
-        max-width: 300px;
     }
 
     .counter-value {
@@ -486,20 +480,21 @@ footer p {
     }
 
     #diplomes {
-        background: url(media/tab2.jpg) no-repeat fixed 50% 50%;
-        background-size: cover;
+        background: url(media/tab2.jpg);
+        background-size: 100% 100%;
     }
     #langages {
-        background: url(media/lang.jpg) no-repeat fixed 50% 50%;
-        background-size: cover;
+        background: url(media/lang.jpg);
+        background-size: 100% 100%;
     }
     #formation {
-        background: url(media/ecole.jpg) no-repeat fixed 50% 50%;
-        background-size: cover;
+        background: url(media/ecole.jpg);
+        background-size: 100% 100%;
     }
 
     #hobbies {
         margin-top: -30px;
+        background-size: 100% 100%;
     }
 
     .flip-box-back p {
