@@ -98,11 +98,11 @@ header .button:hover a {
 
 /* **************** DIPLOMES ********** */
 #diplomes {
-    background: url(media/tab2.jpg) no-repeat fixed 50% 50%;
+    background: url(media/tab2.jpg) no-repeat fixed;
     max-width: 800px;
     margin: 50px auto 180px auto;
     padding: 40px 50px 100px 50px;
-    background-size: cover;
+    background-size: 100% 100%;
     border-radius: 8px;
 }
 
@@ -133,11 +133,11 @@ header .button:hover a {
 #langages {
     text-align: center;
     /*padding: 5% 5%;*/
-    background: url(media/lang.jpg) no-repeat fixed 50% 50%;
+    background: url(media/lang.jpg) no-repeat fixed;
     max-width: 800px;
     margin: 50px auto 180px auto;
     padding: 40px 50px 100px 50px;
-    background-size: cover;
+    background-size: 100% 100%;
     border-radius: 8px;
 }
 #langages h3 {
@@ -185,11 +185,11 @@ header .button:hover a {
     font-size: 1.2em;
 }
 #formation {
-    background: url(media/ecole.jpg) no-repeat fixed 50% 50%;
+    background: url(media/ecole.jpg) no-repeat fixed;
     max-width: 800px;
     margin: 50px auto 180px auto;
     padding: 40px 50px 100px 50px;
-    background-size: cover;
+    background-size: 100% 100%;
     border-radius: 8px;
 }
 
@@ -198,8 +198,8 @@ header .button:hover a {
     max-width: 800px;
     margin: 50px auto 180px auto;
     padding: 40px 50px 100px 50px;
-    background: url(./media/tableau2.jpg) no-repeat fixed 50% 50%;
-    background-size: cover;
+    background: url(./media/tableau2.jpg) no-repeat fixed;
+    background-size: 100% 100%;
     border-radius: 8px;
     box-shadow: -1px -1px 8px #c00808;
 }
@@ -393,6 +393,8 @@ footer p {
         max-width: 400px;
     }
     #parcours {
+        background: url(./media/tableau2.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
     }
 
@@ -489,6 +491,9 @@ footer p {
     }
     #formation {
         background: url(media/ecole.jpg);
+        background-size: 100% 100%;
+    }
+    #parcours {
         background-size: 100% 100%;
     }
 
