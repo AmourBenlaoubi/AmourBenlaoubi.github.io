@@ -115,6 +115,8 @@ header .button:hover a {
 #diplomes .data {
     padding: 25px 15px 10px 15px;
     text-align: center;
+    background-color: rgba(50, 43, 70, 0.74);
+    color: rgb(0, 0, 0);
 }
 #rncp {
     padding: 50px 0 0 5%;
@@ -150,7 +152,11 @@ header .button:hover a {
     padding: 15px 15px;
     color: rgb(255, 0, 0);
 }
-
+#langages .frame {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
 /* ******************** FORMATION ****************** */
 
 #formation h3 {
@@ -172,17 +178,22 @@ header .button:hover a {
 }
 .data {
     border: 1px solid #005978;
-    width: 170px;
+    width: 170%;
+    height: 100%;
     margin: 0 4%;
     box-shadow: 0 0 8px #1c9dc4;
     border-radius: 25px;
 }
 .counter-value {
     font-size: 2em;
+    width: 100%;
+    height: 100%;
 }
 
 #formation span {
     font-size: 1.2em;
+    width: 100%;
+    height: 100%;
 }
 #formation {
     background: url(media/ecole.jpg) no-repeat fixed;
@@ -191,6 +202,8 @@ header .button:hover a {
     padding: 40px 50px 100px 50px;
     background-size: 100% 100%;
     border-radius: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 /* ******************* PARCOURS **************** */
@@ -392,6 +405,12 @@ footer p {
         background-size: 100% 100%;
         max-width: 400px;
     }
+    #formation span {
+        font-size: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
     #parcours {
         background: url(./media/tableau2.jpg);
         background-size: 100% 100%;
@@ -434,6 +453,11 @@ footer p {
         background-size: 100% 100%;
         max-width: 400px;
     }
+    #formation span {
+        font-size: 1em;
+        width: 100%;
+        height: 100%;
+    }
     #parcours {
         max-width: 400px;
     }
@@ -445,9 +469,13 @@ footer p {
 
     .counter-value {
         font-size: 1em;
+        height: 100%;
+        width: 100%;
     }
     .data-span {
         font-size: 0.8em;
+        height: 100%;
+        width: 100%;
     }
 
     .legende p {
@@ -492,6 +520,11 @@ footer p {
     #formation {
         background: url(media/ecole.jpg);
         background-size: 100% 100%;
+    }
+    #formation span {
+        font-size: 0.8em;
+        width: 100%;
+        height: 100%;
     }
     #parcours {
         background-size: 100% 100%;
