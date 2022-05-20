@@ -382,7 +382,7 @@ footer p {
         font-size: 0.9em;
     }
     #diplomes {
-        margin-top: 5%;
+        margin-top: -5%;
         margin-bottom: 5%;
     }
     #langages {
@@ -395,7 +395,7 @@ footer p {
     }
     #parcours {
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
     .network {
         font-size: 2em;
@@ -419,22 +419,16 @@ footer p {
         font-size: 0.9em;
     }
     #diplomes {
-        background: url(media/tab2.jpg);
-        background-size: 100% 100%;
         max-width: 400px;
-        margin-top: 5%;
+        margin-top: -5%;
         margin-bottom: 5%;
     }
     #langages {
-        background: url(media/lang.jpg);
-        background-size: 100% 100%;
         max-width: 400px;
         margin-top: 5%;
         margin-bottom: 5%;
     }
     #formation {
-        background: url(media/ecole.jpg);
-        background-size: 100% 100%;
         max-width: 400px;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -447,7 +441,7 @@ footer p {
     #parcours {
         max-width: 400px;
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 
     .network {
@@ -498,20 +492,14 @@ footer p {
     }
 
     #diplomes {
-        background: url(media/tab2.jpg);
-        background-size: 100% 100%;
-        margin-top: 5%;
+        margin-top: -30%;
         margin-bottom: 5%;
     }
     #langages {
-        background: url(media/lang.jpg);
-        background-size: 100% 100%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
     #formation {
-        background: url(media/ecole.jpg);
-        background-size: 100% 100%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -521,9 +509,8 @@ footer p {
         height: 100%;
     }
     #parcours {
-        background-size: 100% 100%;
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
     }
 
     #hobbies {
