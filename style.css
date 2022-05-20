@@ -383,19 +383,19 @@ footer p {
     }
     #diplomes {
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #langages {
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #formation {
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #parcours {
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     .network {
         font-size: 2em;
@@ -423,21 +423,21 @@ footer p {
         background-size: 100% 100%;
         max-width: 400px;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #langages {
         background: url(media/lang.jpg);
         background-size: 100% 100%;
         max-width: 400px;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #formation {
         background: url(media/ecole.jpg);
         background-size: 100% 100%;
         max-width: 400px;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #formation span {
         font-size: 1em;
@@ -447,7 +447,7 @@ footer p {
     #parcours {
         max-width: 400px;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
 
     .network {
@@ -501,19 +501,19 @@ footer p {
         background: url(media/tab2.jpg);
         background-size: 100% 100%;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #langages {
         background: url(media/lang.jpg);
         background-size: 100% 100%;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #formation {
         background: url(media/ecole.jpg);
         background-size: 100% 100%;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
     #formation span {
         font-size: 0.8em;
@@ -523,7 +523,7 @@ footer p {
     #parcours {
         background-size: 100% 100%;
         margin-top: 5%;
-        margin-bottom: -10%;
+        margin-bottom: 5%;
     }
 
     #hobbies {
