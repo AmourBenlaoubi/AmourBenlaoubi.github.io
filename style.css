@@ -366,10 +366,6 @@ footer p {
 /* ***************** MEDIA QUERIES ************ */
 @media screen and (max-width: 900px) {
     body {
-        color: #283655 !important;
-        font-family: 'Rambla', sans-serif;
-        background: url(media/code-présentation4.jpg) no-repeat fixed;
-        background-size: cover;
         overflow-x: hidden;
     }
     .infos h5,
@@ -403,10 +399,6 @@ footer p {
 }
 @media screen and (max-width: 770px) {
     body {
-        color: #283655 !important;
-        font-family: 'Rambla', sans-serif;
-        background: url(media/code-présentation4.jpg) no-repeat fixed;
-        background-size: cover;
         overflow-x: hidden;
     }
     .navbar {
@@ -481,10 +473,6 @@ footer p {
 }
 @media screen and (max-width: 520px) {
     body {
-        color: #283655 !important;
-        font-family: 'Rambla', sans-serif;
-        background: url(media/code-présentation4.jpg) no-repeat fixed;
-        background-size: cover;
         overflow-x: hidden;
     }
     h1 {
