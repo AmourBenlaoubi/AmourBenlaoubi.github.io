@@ -379,18 +379,22 @@ footer p {
     #diplomes {
         margin-top: -5%;
         margin-bottom: 5%;
+        max-width: 400px;
     }
     #langages {
         margin-top: 5%;
         margin-bottom: 5%;
+        max-width: 400px;
     }
     #formation {
         margin-top: 5%;
         margin-bottom: 5%;
+        max-width: 400px;
     }
     #parcours {
         margin-top: 5%;
         margin-bottom: 20%;
+        max-width: 400px;
     }
     .network {
         font-size: 2em;
@@ -499,14 +503,17 @@ footer p {
     #diplomes {
         margin-top: -30%;
         margin-bottom: 5%;
+        max-width: 300px;
     }
     #langages {
         margin-top: 5%;
         margin-bottom: 5%;
+        max-width: 300px;
     }
     #formation {
         margin-top: 5%;
         margin-bottom: 5%;
+        max-width: 300px;
     }
     #formation span {
         font-size: 0.8em;
@@ -516,6 +523,7 @@ footer p {
     #parcours {
         margin-top: 5%;
         margin-bottom: 20%;
+        max-width: 300px;
     }
 
     #hobbies {
