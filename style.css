@@ -102,15 +102,14 @@ header .button:hover a {
 #diplomes {
     background: url(media/tab2.jpg) no-repeat fixed;
     max-width: 800px;
-    margin: 50px auto 180px auto;
+    margin: 20px auto 180px auto;
     padding: 40px 50px 100px 50px;
     background-size: 100% 100%;
     border-radius: 8px;
 }
-
 #diplomes h3 {
     padding-top: 25px;
-    padding-left: 25px;
+
     text-align: center;
     text-shadow: 4px 4px 2px rgba(248, 218, 82, 0.6);
 }
@@ -132,12 +131,12 @@ header .button:hover a {
     padding: 50px 0 0 12%;
 }
 
-/* ********************** LANGAGES *********************** */
+/* ******************* LANGAGES ****************** */
 #langages {
     text-align: center;
     background: url(media/lang.jpg) no-repeat fixed;
     max-width: 800px;
-    margin: 50px auto 180px auto;
+    margin: -10% auto 180px auto;
     padding: 40px 50px 100px 50px;
     background-size: 100% 100%;
     border-radius: 8px;
@@ -152,9 +151,7 @@ header .button:hover a {
     padding: 15px 15px;
     color: rgb(255, 255, 255);
 }
-
 /* ******************** FORMATION ****************** */
-
 #formation h3 {
     letter-spacing: 0.08em;
     padding-bottom: 15px;
@@ -195,18 +192,17 @@ header .button:hover a {
 #formation {
     background: url(media/ecole.jpg) no-repeat fixed;
     max-width: 800px;
-    margin: 50px auto 180px auto;
+    margin: -10% auto 180px auto;
     padding: 40px 50px 100px 50px;
     background-size: 100% 100%;
     border-radius: 8px;
     width: 100%;
     height: 100%;
 }
-
 /* ******************* PARCOURS **************** */
 #parcours {
     max-width: 800px;
-    margin: 50px auto 180px auto;
+    margin: -10% auto 180px auto;
     padding: 40px 50px 100px 50px;
     background: url(./media/tableau2.jpg) no-repeat fixed;
     background-size: 100% 100%;
@@ -383,43 +379,42 @@ footer p {
 }
 /* ***************** MEDIA QUERIES ************ */
 @media screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
     .infos h5,
     .typed {
         font-size: 0.9em;
     }
     #diplomes {
-        background: url(media/tab2.jpg);
-        background-size: 100% 100%;
+        margin-top: -5%;
+        margin-bottom: 5%;
         max-width: 400px;
     }
     #langages {
-        background: url(media/lang.jpg);
-        background-size: 100% 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         max-width: 400px;
     }
     #formation {
-        background: url(media/ecole.jpg);
-        background-size: 100% 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         max-width: 400px;
     }
-    #formation span {
-        font-size: 1em;
-        width: 100%;
-        height: 100%;
-    }
-
     #parcours {
-        background: url(./media/tableau2.jpg);
-        background-size: 100% 100%;
+        margin-top: 5%;
+        margin-bottom: 20%;
         max-width: 400px;
     }
-
     .network {
         font-size: 2em;
-        padding: 10x 20px;
+        padding: 10px 20px;
     }
 }
 @media screen and (max-width: 770px) {
+    body {
+        overflow-x: hidden;
+    }
     .navbar {
         display: none !important;
     }
@@ -428,51 +423,47 @@ footer p {
     }
     h1,
     h2 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .infos h5,
     .typed {
-        font-size: 0.9em;
+        font-size: 0.6em;
     }
     #diplomes {
-        background: url(media/tab2.jpg);
-        background-size: 100% 100%;
         max-width: 400px;
+        margin-top: -5%;
+        margin-bottom: 5%;
     }
     #langages {
-        background: url(media/lang.jpg);
-        background-size: 100% 100%;
         max-width: 400px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     #formation {
-        background: url(media/ecole.jpg);
-        background-size: 100% 100%;
         max-width: 400px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     #formation span {
         font-size: 1em;
-        width: 100%;
-        height: 100%;
     }
     #parcours {
         max-width: 400px;
+        margin-top: 5%;
+        margin-bottom: 20%;
     }
 
     .network {
-        font-size: 2em;
+        font-size: 1.8em;
         padding: 10x 20px;
     }
 
     .counter-value {
-        font-size: 1em;
-        height: 100%;
-        width: 100%;
+        font-size: 0.8em;
     }
     .data-span {
-        font-size: 0.8em;
-        height: 100%;
-        width: 100%;
+        font-size: 0.6em;
     }
 
     .legende p {
@@ -493,38 +484,40 @@ footer p {
         font-size: 1.4em;
         padding: 14px 20px;
     }
-    input,
-    textarea {
-        width: 300px;
-    }
 }
 @media screen and (max-width: 520px) {
+    body {
+        overflow-x: hidden;
+    }
     h1 {
         padding-top: 20px;
     }
     h3 {
-        font-size: 1em !important;
+        font-size: 0.8em !important;
     }
 
     #diplomes {
-        background: url(media/tab2.jpg);
-        background-size: 100% 100%;
+        margin-top: -30%;
+        margin-bottom: 5%;
+        max-width: 300px;
     }
     #langages {
-        background: url(media/lang.jpg);
-        background-size: 100% 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        max-width: 300px;
     }
     #formation {
-        background: url(media/ecole.jpg);
-        background-size: 100% 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        max-width: 300px;
     }
     #formation span {
         font-size: 0.8em;
-        width: 100%;
-        height: 100%;
     }
     #parcours {
-        background-size: 100% 100%;
+        margin-top: 5%;
+        margin-bottom: 20%;
+        max-width: 300px;
     }
 
     #hobbies {
