@@ -368,7 +368,7 @@ footer p {
     body {
         color: #283655 !important;
         font-family: 'Rambla', sans-serif;
-        background: url(media/code-présentation4.jpg) no-repeat fixed 100% 100%;
+        background: url(media/code-présentation4.jpg) no-repeat fixed;
         background-size: cover;
         overflow-x: hidden;
     }
@@ -405,7 +405,7 @@ footer p {
     body {
         color: #283655 !important;
         font-family: 'Rambla', sans-serif;
-        background: url(media/code-présentation4.jpg) no-repeat fixed 100% 100%;
+        background: url(media/code-présentation4.jpg) no-repeat fixed;
         background-size: cover;
         overflow-x: hidden;
     }
@@ -489,7 +489,7 @@ footer p {
     body {
         color: #283655 !important;
         font-family: 'Rambla', sans-serif;
-        background: url(media/code-présentation4.jpg) no-repeat fixed 100% 100%;
+        background: url(media/code-présentation4.jpg) no-repeat fixed;
         background-size: cover;
         overflow-x: hidden;
     }
