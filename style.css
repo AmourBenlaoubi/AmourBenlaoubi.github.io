@@ -9,6 +9,7 @@ body {
     font-family: 'Rambla', sans-serif;
     background: url(media/code-présentation4.jpg) no-repeat fixed 100% 100%;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 h2,
@@ -82,20 +83,7 @@ h2 {
     border-radius: 3px;
     box-shadow: 0 0 4px #111;
 }
-header .button {
-    margin-top: 45px;
-}
-header .button a {
-    padding: 20px 80px;
-    border: 1px solid #b3aca7;
-    width: 300px;
-}
-header .button:hover a {
-    background: #b3aca7;
-    color: #e2dedb;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-}
+
 /* **************** DIPLOMES ********** */
 #diplomes {
     background: url(media/tab2.jpg) no-repeat fixed;
@@ -107,7 +95,7 @@ header .button:hover a {
 }
 #diplomes h3 {
     padding-top: 25px;
-    padding-left: 25px;
+
     text-align: center;
     text-shadow: 4px 4px 2px rgba(248, 218, 82, 0.6);
 }
@@ -477,10 +465,6 @@ footer p {
     .network {
         font-size: 1.4em;
         padding: 14px 20px;
-    }
-    input,
-    textarea {
-        width: 300px;
     }
 }
 @media screen and (max-width: 520px) {
