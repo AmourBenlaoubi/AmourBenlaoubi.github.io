@@ -401,6 +401,17 @@ footer p {
         margin-bottom: 5%;
         max-width: 400px;
     }
+    .counter-value {
+        font-size: 1.7em;
+        width: 100%;
+        height: 100%;
+    }
+
+    #formation span {
+        font-size: 0.9em;
+        width: 100%;
+        height: 100%;
+    }
     #parcours {
         margin-top: 5%;
         margin-bottom: 20%;
@@ -445,8 +456,16 @@ footer p {
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    .counter-value {
+        font-size: 0.6em;
+        width: 100%;
+        height: 100%;
+    }
+
     #formation span {
-        font-size: 1em;
+        font-size: 0.4em;
+        width: 100%;
+        height: 100%;
     }
     #parcours {
         max-width: 400px;
@@ -511,8 +530,16 @@ footer p {
         margin-bottom: 5%;
         max-width: 300px;
     }
-    #formation span {
+    .counter-value {
         font-size: 0.8em;
+        width: 100%;
+        height: 100%;
+    }
+
+    #formation span {
+        font-size: 0.7em;
+        width: 100%;
+        height: 100%;
     }
     #parcours {
         margin-top: 5%;
