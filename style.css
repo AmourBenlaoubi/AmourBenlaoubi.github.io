@@ -83,6 +83,20 @@ h2 {
     border-radius: 3px;
     box-shadow: 0 0 4px #111;
 }
+header .button {
+    margin-top: 45px;
+}
+header .button a {
+    padding: 20px 80px;
+    border: 1px solid #b3aca7;
+    width: 300px;
+}
+header .button:hover a {
+    background: #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
 
 /* **************** DIPLOMES ********** */
 #diplomes {
@@ -365,42 +379,43 @@ footer p {
 }
 /* ***************** MEDIA QUERIES ************ */
 @media screen and (max-width: 900px) {
-    body {
-        overflow-x: hidden;
-    }
     .infos h5,
     .typed {
         font-size: 0.9em;
     }
     #diplomes {
-        margin-top: -5%;
-        margin-bottom: 5%;
+        background: url(media/tab2.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
     }
     #langages {
-        margin-top: 5%;
-        margin-bottom: 5%;
+        background: url(media/lang.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
     }
     #formation {
-        margin-top: 5%;
-        margin-bottom: 5%;
+        background: url(media/ecole.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
     }
+    #formation span {
+        font-size: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
     #parcours {
-        margin-top: 5%;
-        margin-bottom: 20%;
+        background: url(./media/tableau2.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
     }
+
     .network {
         font-size: 2em;
-        padding: 10px 20px;
+        padding: 10x 20px;
     }
 }
 @media screen and (max-width: 770px) {
-    body {
-        overflow-x: hidden;
-    }
     .navbar {
         display: none !important;
     }
@@ -409,47 +424,51 @@ footer p {
     }
     h1,
     h2 {
-        font-size: 1.7em;
+        font-size: 2em;
     }
 
     .infos h5,
     .typed {
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
     #diplomes {
+        background: url(media/tab2.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
-        margin-top: -5%;
-        margin-bottom: 5%;
     }
     #langages {
+        background: url(media/lang.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
-        margin-top: 5%;
-        margin-bottom: 5%;
     }
     #formation {
+        background: url(media/ecole.jpg);
+        background-size: 100% 100%;
         max-width: 400px;
-        margin-top: 5%;
-        margin-bottom: 5%;
     }
     #formation span {
         font-size: 1em;
+        width: 100%;
+        height: 100%;
     }
     #parcours {
         max-width: 400px;
-        margin-top: 5%;
-        margin-bottom: 20%;
     }
 
     .network {
-        font-size: 1.8em;
+        font-size: 2em;
         padding: 10x 20px;
     }
 
     .counter-value {
-        font-size: 0.8em;
+        font-size: 1em;
+        height: 100%;
+        width: 100%;
     }
     .data-span {
-        font-size: 0.6em;
+        font-size: 0.8em;
+        height: 100%;
+        width: 100%;
     }
 
     .legende p {
@@ -470,40 +489,38 @@ footer p {
         font-size: 1.4em;
         padding: 14px 20px;
     }
+    input,
+    textarea {
+        width: 300px;
+    }
 }
 @media screen and (max-width: 520px) {
-    body {
-        overflow-x: hidden;
-    }
     h1 {
         padding-top: 20px;
     }
     h3 {
-        font-size: 0.8em !important;
+        font-size: 1em !important;
     }
 
     #diplomes {
-        margin-top: -30%;
-        margin-bottom: 5%;
-        max-width: 300px;
+        background: url(media/tab2.jpg);
+        background-size: 100% 100%;
     }
     #langages {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        max-width: 300px;
+        background: url(media/lang.jpg);
+        background-size: 100% 100%;
     }
     #formation {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        max-width: 300px;
+        background: url(media/ecole.jpg);
+        background-size: 100% 100%;
     }
     #formation span {
         font-size: 0.8em;
+        width: 100%;
+        height: 100%;
     }
     #parcours {
-        margin-top: 5%;
-        margin-bottom: 20%;
-        max-width: 300px;
+        background-size: 100% 100%;
     }
 
     #hobbies {
