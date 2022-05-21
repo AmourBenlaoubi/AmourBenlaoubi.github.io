@@ -398,7 +398,7 @@ footer p {
     }
     .network {
         font-size: 2em;
-        padding: 10x 20px;
+        padding: 10px 20px;
     }
 }
 @media screen and (max-width: 770px) {
@@ -441,8 +441,6 @@ footer p {
     }
     #formation span {
         font-size: 1em;
-        width: 100%;
-        height: 100%;
     }
     #parcours {
         max-width: 400px;
@@ -457,13 +455,9 @@ footer p {
 
     .counter-value {
         font-size: 1em;
-        height: 100%;
-        width: 100%;
     }
     .data-span {
         font-size: 0.8em;
-        height: 100%;
-        width: 100%;
     }
 
     .legende p {
@@ -517,8 +511,6 @@ footer p {
     }
     #formation span {
         font-size: 0.8em;
-        width: 100%;
-        height: 100%;
     }
     #parcours {
         margin-top: 5%;
