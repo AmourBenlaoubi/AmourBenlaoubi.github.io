@@ -376,29 +376,21 @@ footer p {
         margin-top: -5%;
         margin-bottom: 5%;
         max-width: 400px;
-        height: 100%;
-        width: 100%;
     }
     #langages {
         margin-top: 5%;
         margin-bottom: 5%;
         max-width: 400px;
-        height: 100%;
-        width: 100%;
     }
     #formation {
         margin-top: 5%;
         margin-bottom: 5%;
         max-width: 400px;
-        height: 100%;
-        width: 100%;
     }
     #parcours {
         margin-top: 5%;
         margin-bottom: 20%;
         max-width: 400px;
-        height: 100%;
-        width: 100%;
     }
     .network {
         font-size: 2em;
@@ -417,33 +409,27 @@ footer p {
     }
     h1,
     h2 {
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .infos h5,
     .typed {
-        font-size: 0.9em;
+        font-size: 0.6em;
     }
     #diplomes {
         max-width: 400px;
         margin-top: -5%;
         margin-bottom: 5%;
-        height: 100%;
-        width: 100%;
     }
     #langages {
         max-width: 400px;
         margin-top: 5%;
         margin-bottom: 5%;
-        height: 100%;
-        width: 100%;
     }
     #formation {
         max-width: 400px;
         margin-top: 5%;
         margin-bottom: 5%;
-        height: 100%;
-        width: 100%;
     }
     #formation span {
         font-size: 1em;
@@ -452,20 +438,18 @@ footer p {
         max-width: 400px;
         margin-top: 5%;
         margin-bottom: 20%;
-        height: 100%;
-        width: 100%;
     }
 
     .network {
-        font-size: 2em;
+        font-size: 1.8em;
         padding: 10x 20px;
     }
 
     .counter-value {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .data-span {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
     .legende p {
@@ -495,29 +479,23 @@ footer p {
         padding-top: 20px;
     }
     h3 {
-        font-size: 1em !important;
+        font-size: 0.8em !important;
     }
 
     #diplomes {
         margin-top: -30%;
         margin-bottom: 5%;
         max-width: 300px;
-        height: 100%;
-        width: 100%;
     }
     #langages {
         margin-top: 5%;
         margin-bottom: 5%;
         max-width: 300px;
-        height: 100%;
-        width: 100%;
     }
     #formation {
         margin-top: 5%;
         margin-bottom: 5%;
         max-width: 300px;
-        height: 100%;
-        width: 100%;
     }
     #formation span {
         font-size: 0.8em;
@@ -526,8 +504,6 @@ footer p {
         margin-top: 5%;
         margin-bottom: 20%;
         max-width: 300px;
-        height: 100%;
-        width: 100%;
     }
 
     #hobbies {
