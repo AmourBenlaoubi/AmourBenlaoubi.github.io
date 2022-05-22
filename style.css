@@ -265,7 +265,7 @@ header .button:hover a {
     padding: 250px 50px 100px 50px;
     margin: -300px 0 -90px 0;
     clip-path: polygon(0% 21%, 100% 31%, 100% 95%, 0% 100%);
-    background: #ffbb00;
+    background: #6ad1eb;
 }
 #hobbies h3 {
     transform: rotate(4.2deg);
